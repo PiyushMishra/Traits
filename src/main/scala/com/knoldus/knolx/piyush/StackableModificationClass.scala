@@ -30,6 +30,7 @@ object test extends App {
 
   val Myqueue = new MyQueue
   Myqueue.put(-1); Myqueue.put(0); Myqueue.put(1)
-  println(queue.get)
+  println(Myqueue.get)
+  println(Myqueue.get)
 
 }
